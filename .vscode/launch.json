@@ -1,0 +1,161 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "question1",
+            "request": "launch",
+            "mainClass": "problems.question1",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question10",
+            "request": "launch",
+            "mainClass": "problems.question10",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question11",
+            "request": "launch",
+            "mainClass": "problems.question11",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question12",
+            "request": "launch",
+            "mainClass": "problems.question12",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question13",
+            "request": "launch",
+            "mainClass": "problems.question13",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question14",
+            "request": "launch",
+            "mainClass": "problems.question14",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question15",
+            "request": "launch",
+            "mainClass": "problems.question15",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question16",
+            "request": "launch",
+            "mainClass": "problems.question16",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question17",
+            "request": "launch",
+            "mainClass": "problems.question17",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question18",
+            "request": "launch",
+            "mainClass": "problems.question18",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question19",
+            "request": "launch",
+            "mainClass": "problems.question19",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question2",
+            "request": "launch",
+            "mainClass": "problems.question2",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question20",
+            "request": "launch",
+            "mainClass": "problems.question20",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question21",
+            "request": "launch",
+            "mainClass": "problems.question21",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question3",
+            "request": "launch",
+            "mainClass": "problems.question3",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question4",
+            "request": "launch",
+            "mainClass": "problems.question4",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question5",
+            "request": "launch",
+            "mainClass": "problems.question5",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question6",
+            "request": "launch",
+            "mainClass": "problems.question6",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question7",
+            "request": "launch",
+            "mainClass": "problems.question7",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question8",
+            "request": "launch",
+            "mainClass": "problems.question8",
+            "projectName": "JAVA DSA_d425ead0"
+        },
+        {
+            "type": "java",
+            "name": "question9",
+            "request": "launch",
+            "mainClass": "problems.question9",
+            "projectName": "JAVA DSA_d425ead0"
+        }
+    ]
+}
