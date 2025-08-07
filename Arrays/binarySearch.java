@@ -2,7 +2,7 @@
 import java.util.*;
 
 public class binarySearch {
-    public static int binarySearch(int num[], int key){
+    public static int BinarySearch(int num[], int key){
         // initializing the start and end index
         int start = 0;
         int end = num.length - 1;
@@ -30,7 +30,7 @@ public class binarySearch {
     public static void main(String[] args) {
         int num[] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int key = 10;
-        int result = binarySearch(num, key);
+        int result = BinarySearch(num, key);
         if(result == -1){
             System.out.println("Element not found");
         } else {
