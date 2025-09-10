@@ -1,6 +1,6 @@
 //Given n non-negitive integer, representing an elevation map where the width of the bar is 1, compute how much water it can trap after raining.
 
-import java.util.*;
+
 public class trappingRainwater {
     public static int trap(int height[]){
         int n = height.length;

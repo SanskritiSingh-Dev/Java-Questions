@@ -5,7 +5,7 @@
  c. Add it to the sum 
  d. Repeat a & b until the number becomes 0) */
 
-package functions;
+package Functions;
 import java.util.Scanner;
 
 public class function15 {
@@ -23,5 +23,6 @@ public class function15 {
         System.out.print("Enter an integer: ");
         int n = sc.nextInt(); // Read the integer input
         sumOfDigits(n); // Call the method to compute the sum of digits
+        sc.close();
     }
 }

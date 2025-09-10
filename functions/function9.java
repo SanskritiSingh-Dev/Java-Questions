@@ -1,6 +1,6 @@
 // convert binary to decimal
 
-package functions;
+package Functions;
 
 public class function9 {
     public static void binToDec(int binNum){

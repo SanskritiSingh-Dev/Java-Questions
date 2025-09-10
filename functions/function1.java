@@ -1,4 +1,4 @@
-package functions;
+package Functions;
 
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class function1 {
         int b = sc.nextInt();
         int sum = calSum(a, b); // arguments or actual parameters
         System.out.println("Them sum is :" + sum);
+        sc.close();
     }
 
 }

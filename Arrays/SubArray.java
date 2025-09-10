@@ -1,6 +1,6 @@
 //extract the subarrays from a given array
 
-import java.util.*;
+
 
 public class SubArray {
     public static void subArray(int num[]){

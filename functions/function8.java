@@ -1,6 +1,6 @@
 //print all the numbers which are prime between the given range
 
-package functions;
+package Functions;
 
 import java.util.Scanner;
 public class function8 {
@@ -32,5 +32,6 @@ public class function8 {
         System.out.println("Enter the range to find prime numbers: ");
         int n = sc.nextInt();
         PrimeInRange(n);
+        sc.close();
     }  
 }

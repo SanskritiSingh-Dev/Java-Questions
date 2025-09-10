@@ -28,6 +28,6 @@ public class pattern8 {
         int n = sc.nextInt();
         System.out.println("Floyd's Triangle with " + n + " rows:");
         floyds_triangle(n);
-    }
-    
+        sc.close();
+    } 
 }

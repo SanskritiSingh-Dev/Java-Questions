@@ -28,6 +28,7 @@ public class pattern5 {
         System.out.print("Enter the number of columns: ");
         int totalCol = sc.nextInt(); // Read the number of columns
         hollow_rectangle(totalRow, totalCol); // Call the method to print the hollow rectangle pattern
+        sc.close();
     }
     
 }

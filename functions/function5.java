@@ -1,6 +1,6 @@
 //binomial coefficient
 // nCr = n!/r!(n-r)!
-package functions;
+package Functions;
 
 import java.util.Scanner;
 
@@ -27,7 +27,7 @@ public class function5 {
         int r = sc.nextInt();
         int binomial_coefficient = binCoeff(n, r);
         System.out.println("The binomial coefficient of " + n + " and " + r + " is : " + binomial_coefficient);
-        
+        sc.close();
     }
     
 }

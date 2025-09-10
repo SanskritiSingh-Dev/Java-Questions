@@ -8,7 +8,7 @@ Print this pattern
  */
 
 
-import java.util.*;
+
 public class pattern1{
     public static void main(String[] args) {
         int n; // no. of lines (4)

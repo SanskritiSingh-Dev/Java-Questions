@@ -2,7 +2,7 @@
 
 //Return the maximum profit you can achieve from this transaction. If you cannot achieve any profit, return 0.
 
-import java.util.*;
+
 public class stockBuySell {
 
     public static  int maxProfit(int prices[]){

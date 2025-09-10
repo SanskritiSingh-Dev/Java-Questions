@@ -1,6 +1,6 @@
 //Max subarray sum using prefix sum technique
 
-import java.util.*;
+
 public class PrefixSumTech {
     public static void maxSubArraySum(int num[]){
         int currSum = 0;

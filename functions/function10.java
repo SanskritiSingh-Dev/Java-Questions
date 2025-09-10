@@ -1,6 +1,6 @@
 //decimal to binary
 
-package functions;
+package Functions;
 
 public class function10 {
     public static void decToBin(int n){

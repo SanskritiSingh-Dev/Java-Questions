@@ -35,5 +35,6 @@ public class pattern13 {
         System.out.print("Enter the number of rows for the diamond: ");
         int n = sc.nextInt();
         diamond(n);
+        sc.close();
     }
 }

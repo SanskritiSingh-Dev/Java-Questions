@@ -1,5 +1,5 @@
 //prime or not
-package functions;
+package Functions;
 import java.util.Scanner;
 
 public class function7 {
@@ -24,6 +24,7 @@ public class function7 {
         else {
             System.out.println("not prime");
         }
+        sc.close();
     }
 
 
@@ -50,7 +51,7 @@ public class function7 {
         else {
             System.out.println("not prime");
         }
+        sc.close();
     }
-    
     
 }

@@ -1,5 +1,4 @@
-//find the largest and smallest value in the array
-import java.util.*;
+
 
 public class largest {
     public static int getLargest(int num[]){

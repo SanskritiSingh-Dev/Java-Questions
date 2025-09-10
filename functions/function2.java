@@ -1,7 +1,6 @@
 //swapping of two numbers
 
-
-package functions;
+package Functions;
 
 public class function2 {
 

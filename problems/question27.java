@@ -23,6 +23,7 @@ public class question27 {
         }
         System.out.println("Sum of even numbers : " + evenSum);
         System.out.println("Sum of odd numbers : " + oddSum);
+        sc.close();
 
     }
     

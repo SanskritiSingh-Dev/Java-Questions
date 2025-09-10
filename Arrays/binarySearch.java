@@ -1,5 +1,4 @@
-//binary search
-import java.util.*;
+
 
 public class binarySearch {
     public static int BinarySearch(int num[], int key){

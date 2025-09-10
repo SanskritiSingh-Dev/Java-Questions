@@ -1,6 +1,6 @@
 //Max subarray sum using brute force technique
 
-import java.util.*;
+
 public class BruteForce {
     public static void maxSubArraySum(int num[]){
         int currSum = 0;

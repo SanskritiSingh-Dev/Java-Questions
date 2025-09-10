@@ -29,6 +29,7 @@ public class pattern6 {
         System.out.print("Enter the number of rows: ");
         int n = sc.nextInt();
         inverted_roated_pyramid(n);
+        sc.close();
     }
     
 }

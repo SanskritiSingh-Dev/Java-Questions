@@ -1,6 +1,6 @@
 //product of two numbers
 
-package functions;
+package Functions;
 
 import java.util.Scanner;
 
@@ -15,6 +15,7 @@ public class function3 {
         int b = sc.nextInt();
         int pro = product(a,b);
         System.out.println("the prduct of a and b is : " + pro);
+        sc.close();
     }
     
 }

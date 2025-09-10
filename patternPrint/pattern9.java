@@ -30,6 +30,7 @@ public class pattern9 {
         int n = sc.nextInt();
         System.out.println("0-1 Pattern:");
         pattern_01(n);
+        sc.close();
     }
     
 }

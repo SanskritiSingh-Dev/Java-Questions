@@ -25,6 +25,7 @@ public class pattern7 {
         System.out.print("Enter the number of rows: ");
         int n = sc.nextInt();
         inverted_half_pyramid(n);
+        sc.close();
     }
     
 }

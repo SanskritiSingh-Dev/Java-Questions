@@ -1,6 +1,6 @@
 //pairs in array
 
-import java.util.*;
+
 
 public class pairs {
     public static void pairPrint(int num[]) {

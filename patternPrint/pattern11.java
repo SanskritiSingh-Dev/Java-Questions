@@ -29,6 +29,7 @@ public class pattern11 {
         System.out.print("Enter the number of rows for the solid rhombus: ");
         int n = sc.nextInt();
         solid_rhombus(n);
+        sc.close();
     }
     
 }

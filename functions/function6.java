@@ -1,7 +1,7 @@
 //overloading using parameters
 
 
-package functions;
+package Functions;
 
 public class function6 {
     public static int sum1 (int a, int b){

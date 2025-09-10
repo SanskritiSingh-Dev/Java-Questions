@@ -1,7 +1,7 @@
 //factorial of n number n!
 // n! = (n-1)!*n ascending order
 //eg. 4! = 1*2*3*4
-package functions;
+package Functions;
 
 import java.util.Scanner;
 
@@ -20,6 +20,7 @@ public class function4 {
         int n = sc.nextInt();
         int fact = factorial(n);
         System.out.println("Factorial of number " + n + " is : " + fact);
+        sc.close();
         
     }
     

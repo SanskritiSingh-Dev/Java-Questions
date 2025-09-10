@@ -36,5 +36,6 @@ public class pattern12 {
         System.out.print("Enter the number of rows for the hollow rhombus: ");  
         int n = sc.nextInt();
         hollow_rhombus(n);
+        sc.close();
     }
 }
