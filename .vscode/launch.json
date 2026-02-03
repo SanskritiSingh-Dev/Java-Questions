@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AreaOfShapes",
+            "request": "launch",
+            "mainClass": "TUTORIAL_YT.CONDITIONAL_LOOP.AreaOfShapes",
+            "projectName": "JAVA DSA_be37fab5"
+        },
+        {
+            "type": "java",
             "name": "Current File",
             "request": "launch",
             "mainClass": "${file}"
