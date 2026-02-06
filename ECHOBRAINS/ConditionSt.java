@@ -28,33 +28,6 @@ public class ConditionSt{
         else{
             System.out.println("Good Evening");
         }
-
-        System.out.println("---------------------------------");
-
-        //check the battery of the phone and print the appropriate message
-        System.out.println("enter the battery of your phone");
-        int battery = sc.nextInt();
-        if(battery <=20){
-            System.out.println("Please charge your phone");
-        }
-        else{
-            System.out.println("Your phone is good to go");
-        }
-
-        System.out.println("------------------------------");
-
-        //check the ticket number and print the appropriate message
-        System.out.println("enter the ticket number: ");
-        int ticketNum = sc.nextInt();
-        int ticketNumForFirstSlot = 1002;
-        String ticket = "havingTicket";
-        if(ticketNum == ticketNumForFirstSlot && ticket.equals("havingTicket")){
-            System.out.println("enjoy your movie. Thank you for booking 1st slot with us.");
-        }
-        else{
-            System.out.println("oops!! Please check your ticket number and try again for next slot.");
-        }
-
         System.out.println("--------------------------------------------------------");
 
         //check the temperature outside and print the appropriate message
@@ -64,17 +37,38 @@ public class ConditionSt{
             System.out.println("Oh god!! It's too hot outside. Please stay hydrated and avoid going out.");
         }
 
-        System.out.println("-----------------------------------------------");
-
-        //convert lowercase char to upper case char by using only if else statement
-        System.out.println("enter a lowercase character: ");
-        char lowercase = sc.next().charAt(0);
-        if(lowercase >= 'a' && lowercase <= 'z'){
-            char uppercase = (char)(lowercase - 'a' + 'A');
-            System.out.println("The uppercase character is: " + uppercase);
+        //check whether the given number is divisible by three or not
+        System.out.println("Enter the number:");
+        int CheckNum = sc.nextInt();
+        if(CheckNum % 3 == 0){
+            System.out.println("the number is divisble by 3");
         }
         else{
-            System.out.println("Please enter a valid lowercase character.");
+            System.out.println("the number is not divisible by 3");
+        }
+
+        System.out.println("-----------------------------------------------");
+
+        //print a message if the number is a 3 digit number
+        System.out.println("enter the number:");
+        int Number = sc. nextInt();
+        if(Number >=100 && Number <==999){
+            System.out.println("the number is a 3 digit number");
+        }
+        else{
+            System.out.println("the number is not a 3 digit number");
+        }
+
+        System.out.println("-----------------------------------------------");
+
+        //write a program to check if the given char is digit or not
+        System.out.println("enter the character:");
+        char character1 = sc.next();
+        if(character1 >= '0' && character1 <= '9'){
+            System.out.println("the character is a digit");
+        }
+        else{
+            System.out.println("the character is not a digit");
         }
     }
     sc.close();
