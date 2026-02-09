@@ -68,6 +68,7 @@ public class ATMSwitch {
             default: System.out.println("Opps! Invalid choice.. Choose again.");
 
         }
+        sc.close();
     }
     
 }
