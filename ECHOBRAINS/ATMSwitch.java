@@ -26,49 +26,59 @@ public class ATMSwitch {
         System.out.println("4. exit");
 
         int transaction = sc.nextInt();
-        double balance = 10000.00; //initial balance
+        double balance = 10000.00; // initial balance
 
-        switch(transaction){
-            case 1: System.out.println("your current balance is: " + balance);
-                    break;
-            case 2: System.out.println("Withdrawing processing...");
-                    System.out.println("enter the amount you want to withdraw:");
-                    double withdrawAmount = sc.nextDouble();
-                    if(withdrawAmount > balance){
-                        System.out.println("insufficient balance. please try again.");
-                        System.out.println("Thank You for using Simple Bank Of India. Have a nice day!");
-                        System.out.println("----------------------------------------------------");
-                    }
-                    else{
-                        System.out.println("please enter your pin to confirm the transaction:");
-                        int enteredPin = sc.nextInt();
+        switch (transaction) {
+            case 1:
+                System.out.println("your current balance is: " + balance);
+                break;
+            case 2:
+                System.out.println("Withdrawing processing...");
+                System.out.println("enter the amount you want to withdraw:");
+                double withdrawAmount = sc.nextDouble();
+                if (withdrawAmount > balance) {
+                    System.out.println("insufficient balance. please try again.");
+                    System.out.println("Thank You for using Simple Bank Of India. Have a nice day!");
+                    System.out.println("----------------------------------------------------");
+                } else {
+                    System.out.println("please enter your pin to confirm the transaction:");
+                    int enteredPin = sc.nextInt();
+                    if (enteredPin == pin) {
                         balance -= withdrawAmount;
                         System.out.println("you have withdrawn: " + withdrawAmount);
                         System.out.println("your current balance is: " + balance);
+                    } else {
+                        System.out.println("invalid pin. transaction failed. please try again.");
                     }
-                    break;
-            case 3: System.out.println("Deposit processing...");
-                    System.out.println("enter the amount you want to deposit:");
-                    double depositAmount = sc.nextDouble();
-                    if(depositAmount <= 0.0){
-                        System.out.println("Wrong input amount. please try again.");
-                        System.out.println("Thank You for using Simple Bank Of India. Have a nice day!");
-                        System.out.println("----------------------------------------------------");
-                    }
-                    else{
-                        System.out.println("please enter your pin to confirm the transaction:");
-                        int enteredPin = sc.nextInt();
+                }
+                break;
+            case 3:
+                System.out.println("Deposit processing...");
+                System.out.println("enter the amount you want to deposit:");
+                double depositAmount = sc.nextDouble();
+                if (depositAmount <= 0.0) {
+                    System.out.println("Wrong input amount. please try again.");
+                    System.out.println("Thank You for using Simple Bank Of India. Have a nice day!");
+                    System.out.println("----------------------------------------------------");
+                } else {
+                    System.out.println("please enter your pin to confirm the transaction:");
+                    int enteredPin = sc.nextInt();
+                    if (enteredPin == pin) {
                         balance += depositAmount;
                         System.out.println("you have deposited: " + depositAmount);
                         System.out.println("your current balance is: " + balance);
+                    } else {
+                        System.out.println("invalid pin. transaction failed. please try again.");
                     }
-                    break;
-            case 4: System.out.println("you have selected to exit. thank you for using our services.");
-                    break;
-            default: System.out.println("Opps! Invalid choice.. Choose again.");
-
+                }
+                break;
+            case 4:
+                System.out.println("you have selected to exit. thank you for using our services.");
+                break;
+            default:
+                System.out.println("Opps! Invalid choice.. Choose again.");
         }
         sc.close();
     }
-    
+
 }
