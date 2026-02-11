@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "HollowRectangle",
+            "request": "launch",
+            "mainClass": "PatternPrint.HollowRectangle",
+            "projectName": "JAVA DSA_be37fab5"
+        },
+        {
+            "type": "java",
+            "name": "demo",
+            "request": "launch",
+            "mainClass": "demo",
+            "projectName": "JAVA DSA_be37fab5"
+        },
+        {
+            "type": "java",
             "name": "AreaOfShapes",
             "request": "launch",
             "mainClass": "TUTORIAL_YT.CONDITIONAL_LOOP.AreaOfShapes",
