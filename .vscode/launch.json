@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "While2",
+            "request": "launch",
+            "mainClass": "While2",
+            "projectName": "JAVA DSA_be37fab5"
+        },
+        {
+            "type": "java",
             "name": "HollowRectangle",
             "request": "launch",
             "mainClass": "PatternPrint.HollowRectangle",
