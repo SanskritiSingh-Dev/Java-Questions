@@ -5,8 +5,13 @@ import java.util.Scanner;
 public class Neon {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the number:");
-        int num = sc.nextInt();
+        System.out.println("enter the range to check the beon number: ");
+        int range = sc.nextInt();
+        int count = 0;
+        for(int i = 1; i<= range; i++){
+        //System.out.println("enter the number:");
+        //int num = sc.nextInt();
+        int num = i;
         int sq = num * num;
         int sum = 0;
         int org = num;
@@ -16,11 +21,13 @@ public class Neon {
             sq = sq/10;
         }
         if(sum == org){
-            System.out.println("Neon number");
+            count++;
         }
-        else{
+        /*else{
             System.out.println("not a neon number");
+        }*/
         }
+        System.out.println("total neon numbers are: " + count);
     }
     
 }
