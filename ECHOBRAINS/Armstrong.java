@@ -1,7 +1,7 @@
 /*Armstrong Number : 
 	An Armstrong number is a number where: Each digit is raised to the power of number of digits, The sum of those values equals the original number(153). */
 import java.util.Scanner;
-
+import java.lang.Math;
 public class Armstrong {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -11,8 +11,8 @@ public class Armstrong {
         int org = num;
         int digitCount = 0;
         while(num > 0){
-            num = num/10;
             digitCount++;
+            num = num/10;
         }
         num = org;
         for(int i = 1; i <= digitCount; i++){
