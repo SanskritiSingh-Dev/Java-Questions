@@ -1,20 +1,21 @@
 import java.util.Scanner;
 
-public class While5 {
+public class While11 {
         public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //print umber of 2's in the given number
+        //find largest digit among the number
         System.out.println("enter the n");
         int n = sc.nextInt();
-        int count = 0;
+        int max = 0;
         while( n >= 1){
             int digit = n % 10;
-            if(digit == 2){
-                count++;
+            if(digit > max){
+                max = digit;
             }
+
             n = n/10;
         }
-        System.out.println(count);
+        System.out.println(max);
         
     }
     

@@ -1,20 +1,20 @@
 import java.util.Scanner;
 
-public class While5 {
+public class While9 {
+    //find the sum of even digit in the number
         public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        //print umber of 2's in the given number
+        Scanner sc = new Scanner(System.in); 
         System.out.println("enter the n");
         int n = sc.nextInt();
-        int count = 0;
+        int sum = 0;
         while( n >= 1){
             int digit = n % 10;
-            if(digit == 2){
-                count++;
+            if(digit % 2 == 0){
+                sum = sum + digit;
             }
             n = n/10;
         }
-        System.out.println(count);
+        System.out.println(sum);
         
     }
     

@@ -1,20 +1,17 @@
 import java.util.Scanner;
 
-public class While5 {
+public class While10 {
         public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        //print umber of 2's in the given number
+        //find factorial
         System.out.println("enter the n");
         int n = sc.nextInt();
-        int count = 0;
+        int fact = 1;
         while( n >= 1){
-            int digit = n % 10;
-            if(digit == 2){
-                count++;
-            }
-            n = n/10;
+            fact = fact * n;
+            n = n-1;
         }
-        System.out.println(count);
+        System.out.println(fact);
         
     }
     
