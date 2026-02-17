@@ -14,7 +14,7 @@ public class While16 {
             p--;
         }
         System.out.println(result);
-        
+        sc.close();
     }
     
 }

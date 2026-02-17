@@ -15,7 +15,7 @@ public class While5 {
             n = n/10;
         }
         System.out.println(count);
-        
+        sc.close();
     }
     
 }

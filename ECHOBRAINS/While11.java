@@ -16,7 +16,7 @@ public class While11 {
             n = n/10;
         }
         System.out.println(max);
-        
+        sc.close();
     }
     
 }

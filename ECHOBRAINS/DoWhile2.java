@@ -1,4 +1,3 @@
-
 //keep asking user to enter positibe number until valid inpu is given
 import java.util.Scanner;
 

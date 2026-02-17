@@ -13,6 +13,6 @@ public class While4 {
             n = n/10;
         }
         System.out.println(count);
-        
+        sc.close();
     }
 }

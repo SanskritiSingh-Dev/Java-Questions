@@ -19,7 +19,7 @@ public class While7 {
         else{
             System.out.println("the number is not palindrome");
         }
-        
+        sc.close();
     }
     
 }

@@ -20,7 +20,7 @@ public class While12 {
         }
         System.out.println("Second max number: " + secondMax);
         System.out.println("first max number is: " +max);
-        
+        sc.close();
     }
     
 }

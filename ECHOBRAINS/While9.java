@@ -15,7 +15,7 @@ public class While9 {
             n = n/10;
         }
         System.out.println(sum);
-        
+        sc.close();
     }
     
 }

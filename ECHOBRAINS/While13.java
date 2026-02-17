@@ -20,7 +20,7 @@ public class While13 {
             n = n/10;
         }
         System.out.println(secondMax);
-        
+        sc.close();
     }
     
 }

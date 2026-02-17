@@ -28,6 +28,7 @@ public class Neon {
         }*/
         }
         System.out.println("total neon numbers are: " + count);
+        sc.close();
     }
     
 }

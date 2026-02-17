@@ -13,7 +13,7 @@ public class While8 {
             n = n/10;
         }
         System.out.println(product);
-        
+        sc.close();
     }
     
 }

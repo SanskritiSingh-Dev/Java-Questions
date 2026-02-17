@@ -18,7 +18,8 @@ public class PerfectNum {
         }else{
             System.out.println("not perfect number");
         }
-
+        sc.close();
+        
     }
     
 }

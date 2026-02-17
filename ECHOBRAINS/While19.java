@@ -18,5 +18,6 @@ public class While19 {
         }else{
             System.out.println("not armstrong number");
         }
+        sc.close();
     }
 }

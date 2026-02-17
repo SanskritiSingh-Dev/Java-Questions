@@ -21,6 +21,7 @@ public class Strong {
         else{
             System.out.println("not a strong number");
         }
+        sc.close();
     }
     
 }

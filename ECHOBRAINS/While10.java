@@ -12,7 +12,7 @@ public class While10 {
             n = n-1;
         }
         System.out.println(fact);
-        
+        sc.close();
     }
     
 }
